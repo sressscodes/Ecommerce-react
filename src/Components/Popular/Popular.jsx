@@ -6,7 +6,7 @@ import Item from '../Items/Item'
 const Popular = () => {
   return (
     <div className='popular'>
-      <h1>Popular in Women</h1>
+      <h1>Popular Plants</h1>
       <hr />
       <div className="popular-item">
         {data_product.map((item,i) => {
@@ -16,5 +16,7 @@ const Popular = () => {
     </div>
   )
 }
+
+console.log(data_product);
 
 export default Popular
