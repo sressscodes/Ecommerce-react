@@ -18,9 +18,9 @@ const Navbar = () => {
       </div>
       <div className="nav-menu">
         <li onClick={() => {setMenu("shop")}}><Link style={{textDecoration: 'none', color: '#1c1c1c'}} to='/' >Home</Link>{menu === "shop"?<hr/>:<></>}</li>
-        <li onClick={() => {setMenu("mens")}}><Link style={{textDecoration: 'none', color: '#1c1c1c'}} to='/mens' >Men</Link>{menu === "mens"?<hr/>:<></>}</li>
-        <li onClick={() => {setMenu("womens")}}><Link style={{textDecoration: 'none', color: '#1c1c1c'}} to='/womens' >Women</Link>{menu === "womens"?<hr/>:<></>}</li>
-        <li onClick={() => {setMenu("kids")}}><Link style={{textDecoration: 'none', color: '#1c1c1c'}} to='/kids' >Kids</Link>{menu === "kids"?<hr/>:<></>}</li>
+        <li onClick={() => {setMenu("indoors")}}><Link style={{textDecoration: 'none', color: '#1c1c1c'}} to='/indoors' >Indoor</Link>{menu === "indoors"?<hr/>:<></>}</li>
+        <li onClick={() => {setMenu("outdoors")}}><Link style={{textDecoration: 'none', color: '#1c1c1c'}} to='/outdoors' >Outdoor</Link>{menu === "outdoors"?<hr/>:<></>}</li>
+        <li onClick={() => {setMenu("flowerings")}}><Link style={{textDecoration: 'none', color: '#1c1c1c'}} to='/flowerings' >Flowering</Link>{menu === "flowerings"?<hr/>:<></>}</li>
       </div>
       <div className="nav-login-cart">
         <Link to='/login'><button>Login</button></Link>
