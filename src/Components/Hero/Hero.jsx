@@ -8,9 +8,9 @@ const Hero = () => {
     <div className='hero'>
 
       <div className="hero-left">
-        <h2>Plants That Make Life Better!</h2>
+        <h2>Bring home freshness, fortune, and beauty.</h2>
         <div>
-        <p>From <span style={{ color: "#038b2a" }}>Succulents</span> to<span style={{ color: "#038b2a" }}> Statement Plants</span></p>
+        <p>From <span style={{ color: "#038b2a" }}>garden greens</span> to<span style={{ color: "#038b2a" }}> Lucky Plants,</span></p>
         <p>We Have It All!</p>
         </div>
         <div className="hero-latest-btn">
