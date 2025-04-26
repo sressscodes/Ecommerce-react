@@ -10,6 +10,7 @@ import Footer from './Components/Footer/Footer'
 import men_banner from './Components/Assets/banner_indoors.png'
 import women_banner from './Components/Assets/banner_outdoors.png'
 import kid_banner from './Components/Assets/banner_flowerings.png'
+import ChatBot from './Components/Chatbot/Chatbot'
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
           <Route path='/login' element={<LoginSignup/>}/>
         </Routes>
         <Footer />
+        <ChatBot />
       </BrowserRouter>
     </>
   )
